@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $('.cim').hide();
   $(window).scroll(function(){
-    if($(this).scrollTop()>300){
+    if($(this).scrollTop()>400){
       $('.cim').fadeIn();
     }
     else{
