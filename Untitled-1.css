@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#logo-marca{
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+}
+.topo{
+  height: 60px;
+  width: 100%;
+  float: left;
+  font-size: 2em;
+	text-align: center;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  background-color:rgb(138, 236, 218);
+  box-shadow:
+    0 1px 3px rgba(0,0,0, 0.12),
+    0 1px 2px rgba(0,0,0, 0.24);
+}
+
+.topo h1{
+	
+  font-weight: 100;
+  font-family: 'Slabo 27px', serif;
+}
+
+.menu-topo{
+  width: 97%;
+  float: left;
+  background-color: rgb(157, 235, 225);
+  padding: 1% 0 0 3%;
+  box-shadow:
+    0 1px 3px rgba(0,0,0, 0.12),
+    0 1px 2px rgba(0,0,0, 0.24);
+}
+
+.menu-topo ul li{
+  padding-bottom: 0.8%;
+  float: left;
+  margin-left: 2%;
+  font-size: 1.03em;
+  font-weight: 500;
+  color: #34474c;
+  border-bottom: solid 4px #FDD835;
+}
+
+
+a{
+	text-decoration: none;
+}
+#menu{
+  width:100%;
+}
+#menu ul{
+	width: 100%;
+}
+#menu ul>:last-child{
+	margin-right: 0;
+}
+
+#menu ul li{
+	width: 14.7%;
+	margin: 0px 1% 0 1%;
+	float: left;
+	display: inline;
+}
+#menu ul li a{
+	cursor: pointer;
+	padding-top: 15px;
+	border-radius: 4%;
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	background-color:rgba(255, 0, 0, 0.65);
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 14px Arial;
+	border: 1px solid ;
+}
+#menu ul li a:hover{
+		padding-top: 12px;
+	transition-duration: 0.4s;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border: 3px solid rgba(255, 0, 0, 0.65);
+	background-color: #f7f8fa;
+	color: rgba(255, 0, 0, 0.65);
+}
+
+/*MEnu Pequeno*/
+#menu-header{
+	z-index: 1;
+}
+.btn-menu{
+	cursor: pointer;
+		border: 1px solid;
+	width: 100%;
+	height: 50px;
+	float: right;
+	text-align: center;
+	color: #fff ;
+	background-color:rgba(255, 0, 0, 0.65);
+}
+.fa{
+	border-radius: 56px;
+}
+/*MEnu*/
+.menu{
+
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+}
+
+.menu ul{
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.menu li{
+
+}
+.menu li a{
+	padding-top: 25px;
+	height: 70px;
+	width: 100%;
+	display: block;
+	font-size: 18px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	border-bottom: solid 1px #000;
+	color: #ccc;
+	text-decoration: none;
+	transition: all.2s;
+}
+ul li a:hover{
+		background-color: rgb(225, 72, 72);
+}
+.btn-menu:hover{
+		transition-duration: 0.4s;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+		border: 3px solid rgba(255, 0, 0, 0.65);
+		background-color: #f7f8fa;
+		color: rgba(255, 0, 0, 0.65);
+}
+#voltar{
+	color: rgba(255, 0, 0, 0.65);
+}
+#voltar:hover{
+	background-color: rgba(0,0,0,0);
+}
+/*Troar Menu*/
+@media only screen and (max-width:773px ){
+#menu{
+	display: none;
+}
+}
+@media only screen and (min-width:773px){
+	.btn-menu{
+		display: none;
+	}
+}
+/*Corpo ou Conteudo*/
+.btn {
+	margin: 1% 25% 1% 25%;
+	width: 50%;
+	height: 35px;
+	border-radius: 2px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	background-color: #F44336;
+	color: #FFF;
+	transition: background-color .3s;
+	cursor: pointer;
+}
+.maker{
+	width: 100%;
+	float: left;
+	margin-top: -2%;
+}
+.maker .introducao {
+	float: left;
+	width: 50%;
+	margin: 8% 2% 5% 5%;
+}
+
+/*Imagnes*/
+.maker .shop{
+	padding-left:5%;
+	clear: right;
+	padding: 10% 0 1% 0;
+	width: 38% ;
+}
+/*Mapa*/
+.introducao iframe{
+	margin: -15% 0 0 50%;
+		float: left;
+}
+.mapa .introducao{
+	margin: 5%;
+}
+
+/*Footer*/
+.fundo-footer{
+	margin-bottom: 0;
+	float: left;
+  width: 100%;
+  background-color: #2b4751;
+	b
+  height: inherit;
+	padding: 2%;
+}
+.fundo-footer h3{
+  color: #CFD8DC;
+  font-size: 0.9em;
+
+}
+
+.fundo-footer h4{
+  color: #CFD8DC;
+  font-size: 0.9em;
+}
+
+.copyright{
+  float: left;
+	margin: 2% 20% 2% 20%;
+}
+.cima{
+	width: 100%;
+	border-radius: 3px;
+}
+.cim{
+	width: 5%;
+	float: right;
+	z-index: 1;
+	position: fixed;
+	top: 80%;
+	 right: 0;
+}
+.imagem{
+  padding: 5% 5% 0 5% ;
+  max-width: 35%;
+	height: auto;
+}
+.emal{
+	color:rgb(226, 122, 27);
+}
+.cima{
+	filter: alpha(opacity=100);
+	-moz-opacity:.40;
+	opacity: .40;
+	border-radius: 3px;
+	width: 40px;
+}
+
+.cima:hover{
+	filter: alpha(opacity=100);
+	-moz-opacity: 100;
+	opacity: 100;
+}
+video{
+	width: 90%;
+	margin:0  5% 0 5%;
+
+}
