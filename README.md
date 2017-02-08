@@ -1,1 +1,1 @@
-# www.projetopalaciomemoria.github.io
+# projetopalaciomemoria.github.io
