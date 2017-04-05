@@ -177,7 +177,7 @@ ul li a:hover{
 	height: 35px;
 	border-radius: 2px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-	background-color: #F44336;
+	background-color: #00897B;
 	color: #FFF;
 	transition: background-color .3s;
 	cursor: pointer;
@@ -214,19 +214,19 @@ ul li a:hover{
 	margin-bottom: 0;
 	float: left;
   width: 100%;
-  background-color: #2b4751;
+  background-color: rgb(93, 66, 143);
 	b
   height: inherit;
 	padding: 2%;
 }
 .fundo-footer h3{
-  color: #CFD8DC;
+  color: #fff;
   font-size: 0.9em;
 
 }
 
 .fundo-footer h4{
-  color: #CFD8DC;
+  color: #fff;
   font-size: 0.9em;
 }
 
