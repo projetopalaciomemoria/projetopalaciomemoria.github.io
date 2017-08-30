@@ -64,8 +64,8 @@ a{
 }
 
 #menu ul li{
-	width: 14.7%;
-	margin: 0px 1% 0 1%;
+	width: 13%;
+	margin-left: 1%;
 	float: left;
 	display: inline;
 }
@@ -213,10 +213,9 @@ ul li a:hover{
 .fundo-footer{
 	margin-bottom: 0;
 	float: left;
-  width: 100%;
-  background-color: rgb(93, 66, 143);
-	b
-  height: inherit;
+  	width: 100%;
+  	background-color: rgb(93, 66, 143);
+  	height: 12vmin;
 	padding: 2%;
 }
 .fundo-footer h3{
